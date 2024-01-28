@@ -48,11 +48,11 @@ function Signup() {
     e.preventDefault();
 
     if (password !== confirmPassword) {
-      // alert("Passwords do not match");
     } else {
       console.log("Signup successful");
-      // Include logic for handling the signup
     }
+
+  
   };
 
   return (
@@ -145,3 +145,4 @@ function Signup() {
 }
 
 export default Signup;
+
